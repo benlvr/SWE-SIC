@@ -1,0 +1,9 @@
+function [flux_x_ex, flux_x_im] = set_flux_bc_alt(flux_x_ex, flux_x_im,g_q)
+%UNTITLED4 Summary of this function goes here
+%   Detailed explanation goes here
+
+%set boundary fluxes with flow rates (e.g. flux = g_q)
+flux_x_ex(1) = g_q;
+flux_x_im(1) = g_q;
+
+end
